@@ -68,78 +68,78 @@ class Glibc < Formula
 
   resource "bootstrap-binutils" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-binutils-2.43.1.tar.gz"
-      sha256 "4eb48a302fd501a57be0c842c1657080abe96c1314473244f814df2ae676d951"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-binutils-2.47.tar.gz"
+      sha256 "3d6015799e6d98051c54b1c0ae1447e05ff70164946e1d2419c402a1879be540"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-binutils-2.43.1.tar.gz"
-      sha256 "56e5fdc9aa18d3b609969a60f03f103e99dde3a32bfc7139c66d83e185f4dfec"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-binutils-2.47.tar.gz"
+      sha256 "107b39f336a460f266bc30df71e79513c96f7a68e0cdf3b2d3dd079ab4194a9e"
     end
   end
 
   resource "bootstrap-bison" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-bison-3.8.2.tar.gz"
-      sha256 "59f5bacacc32fda6aa16427a3a894d5a1d0bc30cfc8b5e22f8b25580473e571e"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-bison-3.8.2.tar.gz"
+      sha256 "ddd7978819d6493710bfa8607a3442c54799981519e3fc3ea462455d6ecb5b23"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-bison-3.8.2.tar.gz"
-      sha256 "29c9763dbcb94e0816fc43ccc38835f2a6f17574eb23559e2f497bcef9d3e6ae"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-bison-3.8.2.tar.gz"
+      sha256 "a6cc75967fabf185a5d1a3f289c92fabd917927312342eb29524d3619458a18f"
     end
   end
 
   resource "bootstrap-gawk" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-gawk-5.3.1.tar.gz"
-      sha256 "8e966760d81396b118ad84f228e2c26dc72264aad20edbd34428f743c3a202e3"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-gawk-5.4.1.tar.gz"
+      sha256 "4224baa21c191262191a14e649576e89f63a111dee6a28e5eed8e272c823a3bb"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-gawk-5.3.1.tar.gz"
-      sha256 "f209cf49bcb141a7f4b3e16a01492f23a2da59351e85f0ccc1757fae91ff63cd"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-gawk-5.4.1.tar.gz"
+      sha256 "09cb23e20af792b653ce707814020993c7086876783b58993de450b2aab1abf3"
     end
   end
 
   resource "bootstrap-gcc" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.2.0/bootstrap-aarch64-gcc-10.5.0.tar.gz"
-      sha256 "5fd88bb507f91930d04230094a8ac0611519cbc49b19084c0577eb92722862d4"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-gcc-10.5.0.tar.gz"
+      sha256 "948feebb2569f0876732c5c13af21f67f42ac00cd83c144a9a4982ad6c1a6c06"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-gcc-9.5.0.tar.gz"
-      sha256 "f7f0c7293bb60644b2463351a4ba748b0b108ccda49d4a098aa13e331d26b8c3"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-gcc-10.5.0.tar.gz"
+      sha256 "6b1aede2122bc6265973255d8c1c518074971f98d9f7fb374638be90299d5f30"
     end
   end
 
   resource "bootstrap-make" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-make-4.4.1.tar.gz"
-      sha256 "a0bf6d77a11763581f1236947fa1c7a89a4d6e4b5d0afbb019f7e2e48928580a"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-make-4.4.1.tar.gz"
+      sha256 "b1878a082d2489c99873e249b4b9f1c791360f986a4cc69f1063f7bff5c8366e"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-make-4.4.1.tar.gz"
-      sha256 "54a22f00ba061b6018cc14f4c1472eba5adf7045418d1993aebd35cd446851f7"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-make-4.4.1.tar.gz"
+      sha256 "4ce9c7102c215a18b4fcf5279afc8b3f39ebd587119694cef67a48659e5d9165"
     end
   end
 
   resource "bootstrap-python3" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-python3-3.11.10.tar.gz"
-      sha256 "b8c30cfe774238c01e22a57718fbb7049c66d1d0236ac7e10079556633d0c1fe"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-python3-3.11.15.tar.gz"
+      sha256 "fd94113befd7bbe9e04521c93c99bfe4985d5c3d9ad8cda7071a216360e545ac"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-python3-3.11.10.tar.gz"
-      sha256 "2de6cdd4e8a239fb18d70c140abf17708e32e34cf1a29c5754474201a206b1d8"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-python3-3.11.15.tar.gz"
+      sha256 "06eca585f695280c63b7d7bf468334eaba25e5b28e302abcb55fb232449fbb73"
     end
   end
 
   resource "bootstrap-sed" do
     on_arm do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-aarch64-sed-4.9.tar.gz"
-      sha256 "90558ff86eb9c4fa8046bed69ee9fb764905ed4022c99e21d6cb502f960fc6c2"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-aarch64-sed-4.10.tar.gz"
+      sha256 "0334c0ad06c05d77620057ec5876449a1bc300efe975e6cc283fab15b108aad7"
     end
     on_intel do
-      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.1.1/bootstrap-x86_64-sed-4.9.tar.gz"
-      sha256 "ba9d8b41362c9f7cf85bc36a7b685be8206d4cb32b364b6ca323621b976e89bb"
+      url "https://github.com/Homebrew/glibc-bootstrap/releases/download/1.3.0/bootstrap-x86_64-sed-4.10.tar.gz"
+      sha256 "a5d9099cf7c640aad80914d5c855fd17d9bad18a9c3e2c90aed20b40364f7fb8"
     end
   end
 
@@ -238,8 +238,13 @@ class Glibc < Formula
         "--enable-fortify-source",
         "--enable-stack-protector=strong",
       ]
+      # Ubuntu glibc has CET enabled and Ubuntu GCC injects -fcf-protection.
+      # Using permissive as non-default prefix setups that mix relocatable
+      # bottles with source installs could trigger CET error if toolchain
+      # used does not inject -fcf-protection[=full].
+      args << "--enable-cet=permissive" if Hardware::CPU.intel?
 
-      cflags = "-O2 #{ENV["HOMEBREW_OPTFLAGS"]}"
+      cflags = "-O2 #{ENV["HOMEBREW_OPTFLAGS"]} -fstack-clash-protection"
       cflags += " -mbranch-protection=standard" if Hardware::CPU.arm64?
 
       if build.bottle?
